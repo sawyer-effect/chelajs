@@ -1,4 +1,4 @@
-#Código de Ansible + Node.js  para presentación en Chela.js
+#Ansible + Node.js en Chela.js
 
 * Instala virtual box
 * Instala vagrant
