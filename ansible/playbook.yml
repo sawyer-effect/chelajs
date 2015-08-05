@@ -1,5 +1,5 @@
 ---
-- hosts: apps
+- hosts: all
   sudo: yes
 
   tasks:
@@ -29,6 +29,3 @@
 
   - name: "Start example Node.js app."
     command: forever start /opt/software/app/app.js
-
-  - name: Example of using variables
-    debug: var={{port}}
