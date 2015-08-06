@@ -1,5 +1,5 @@
 [appserver]
 server-en-prod
 
-[appserver]
+[appserver:vars]
 port: 80
